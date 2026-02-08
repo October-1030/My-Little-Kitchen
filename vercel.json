@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "my-little-kitchen",
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ]
+}

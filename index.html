@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍽️ 我家的小饭桌</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍽️ 我家的小饭桌</h1>
+        <p>记录我家喜欢的菜谱，保存美好的味道</p>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab active" data-category="all">全部</button>
+        <button class="tab" data-category="早餐">🌅 早餐</button>
+        <button class="tab" data-category="午餐">🍜 午餐</button>
+        <button class="tab" data-category="晚餐">🍖 晚餐</button>
+        <button class="tab" data-category="小食">🍿 小食</button>
+    </nav>
+
+    <div class="controls">
+        <input type="text" id="search" placeholder="🔍 搜索菜谱...">
+        <button id="random" class="btn-random">🎲 随机推荐</button>
+    </div>
+
+    <main id="recipes-container">
+        <!-- 菜谱卡片会动态加载到这里 -->
+    </main>
+
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="recipe-detail"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>💖 用爱记录每一餐</p>
+        <p class="stats">共 <span id="total-count">0</span> 道菜谱</p>
+    </footer>
+
+    <script src="recipes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
