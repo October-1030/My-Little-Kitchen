@@ -44,7 +44,7 @@ header {
 .settings-btn {
     position: absolute;
     top: 1rem;
-    right: 8rem;
+    left: 1rem;
     background: #feca57;
     color: #333;
     border: none;
@@ -236,7 +236,13 @@ header {
 
 @media (max-width: 768px) {
     .settings-btn {
-        right: 7rem;
+        left: 1rem;
+        top: 1rem;
+    }
+    
+    .lang-btn {
+        right: 1rem;
+        top: 1rem;
     }
     
     .nutrition-goals {
