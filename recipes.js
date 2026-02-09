@@ -10,7 +10,7 @@ const recipes = [
         difficulty: 1,
         time: 15,
         date: "2026-02-08",
-        image: "./图片/TJ早餐套餐_精美版.png",
+        image: "./图片/TJ早餐套餐_精美版_无水印.png",
         originalImage: "./图片/TJ早餐套餐_原图.png",
         ingredients: [
             {
@@ -112,7 +112,7 @@ const recipes = [
         difficulty: 2,
         time: 30,
         date: "2026-02-08",
-        image: "./图片/糯米糖饺_AI版.png",
+        image: "./图片/糯米糖饺_AI版_无水印.png",
         originalImage: "./图片/糯米糖饺_原图.jpg",
         ingredients: [
             {
@@ -199,7 +199,7 @@ const recipes = [
         difficulty: 2,
         time: 35,
         date: "2026-02-08",
-        image: "./图片/红烧大猪排_AI版.png",
+        image: "./图片/红烧大猪排_AI版_无水印.png",
         originalImage: "./图片/红烧大猪排_原图.jpg",
         ingredients: [
             {
