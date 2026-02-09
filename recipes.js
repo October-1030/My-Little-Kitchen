@@ -101,5 +101,92 @@ const recipes = [
             fiber: 3,
             sodium: 850
         }
+    },
+    {
+        id: 2,
+        name: "上海糯米糖饺",
+        nameEn: "Shanghai Fried Mochi Dumplings",
+        category: "小食",
+        categoryEn: "Snacks",
+        rating: 5,
+        difficulty: 2,
+        time: 30,
+        date: "2026-02-08",
+        image: "./图片/糯米糖饺_AI版.png",
+        originalImage: "./图片/糯米糖饺_原图.jpg",
+        ingredients: [
+            {
+                type: "主料",
+                typeEn: "Main Ingredients",
+                items: [
+                    "🌾 糯米粉 200g",
+                    "💧 温水 150ml",
+                    "🍚 糖粉 适量（装饰用）",
+                    "🥄 食用油 适量（油炸用）"
+                ],
+                itemsEn: [
+                    "🌾 Glutinous rice flour 200g",
+                    "💧 Warm water 150ml",
+                    "🍚 Powdered sugar for dusting",
+                    "🥄 Cooking oil for frying"
+                ]
+            }
+        ],
+        steps: [
+            {
+                title: "和面",
+                titleEn: "Make Dough",
+                detail: "糯米粉加温水，揉成光滑柔软的面团，盖上湿布静置10分钟",
+                detailEn: "Mix glutinous rice flour with warm water, knead into smooth soft dough, cover with damp cloth and rest for 10 minutes"
+            },
+            {
+                title: "分块整形",
+                titleEn: "Shape Dumplings",
+                detail: "面团分成小块，每个约80g，搓成椭圆形或长条形",
+                detailEn: "Divide dough into pieces about 80g each, shape into elongated ovals"
+            },
+            {
+                title: "油炸",
+                titleEn: "Deep Fry",
+                detail: "油锅加热至中高温（约170°C），轻轻放入面团，炸至金黄色，约3-4分钟，期间翻面确保均匀上色",
+                detailEn: "Heat oil to medium-high (about 170°C), gently place dough pieces in, fry until golden brown (3-4 minutes), flip to ensure even color"
+            },
+            {
+                title: "沥油",
+                titleEn: "Drain Oil",
+                detail: "捞出后放在吸油纸或厨房纸巾上沥干多余油分",
+                detailEn: "Remove and drain on paper towels to absorb excess oil"
+            },
+            {
+                title: "撒糖粉",
+                titleEn: "Dust with Sugar",
+                detail: "趁热均匀撒上糖粉，可以多撒一些让外表覆盖白糖粉",
+                detailEn: "While still hot, generously dust with powdered sugar until well coated"
+            }
+        ],
+        tips: [
+            "面团不要太硬，要保持柔软才能炸出蓬松口感",
+            "油温要控制好，太低容易吸油，太高外焦里生",
+            "刚炸好最好吃，外酥内软",
+            "糖粉一定要趁热撒，这样才能粘得牢"
+        ],
+        tipsEn: [
+            "Keep dough soft for fluffy texture when fried",
+            "Control oil temperature - too low absorbs oil, too high burns outside",
+            "Best eaten fresh - crispy outside, soft inside",
+            "Dust with sugar while hot so it sticks well"
+        ],
+        tags: ["传统点心", "自制", "油炸", "甜品", "上海小吃"],
+        tagsEn: ["Traditional Dessert", "Homemade", "Deep Fried", "Sweet", "Shanghai Snack"],
+        notes: "传统上海小吃，外皮酥脆，内里软糯，撒满糖粉，甜而不腻。\n\n💡 制作技巧：\n• 每个约80g，大小适中\n• 油炸时火候很重要\n• 趁热撒糖粉效果最好\n\n👨‍👩‍👧 家庭自制，安全健康，孩子很喜欢！",
+        notesEn: "Traditional Shanghai snack - crispy outside, soft and chewy inside, coated with powdered sugar, sweet but not greasy.\n\n💡 Cooking Tips:\n• About 80g each for perfect size\n• Oil temperature is crucial\n• Dust with sugar while hot for best result\n\n👨‍👩‍👧 Homemade, safe and healthy, kids love it!",
+        nutrition: {
+            calories: 280,
+            protein: 4,
+            carbs: 45,
+            fat: 13,
+            fiber: 1,
+            sodium: 5
+        }
     }
 ];
